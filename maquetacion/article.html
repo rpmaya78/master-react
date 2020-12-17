@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Tu tienda BTC</title>
+        <!-- Hoja de estilos-->
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    </head>
+    <body>
+        <header id="header">
+            <div class="center">
+                <!-- LOGO -->
+                <div id="logo">
+                    <img src="assets/images/bitcoin.svg" class="app-logo" alt="Logotipo" /> 
+                    <span id="brand">
+                        <strong>Sat</strong>House
+                    </span>
+                </div>
+                <!-- MENÚ -->
+                <nav id="menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="formulario.html">Formulario</a>
+                        </li>
+                        <li>
+                            <a href="article.html">Pagina 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Pagina 2</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Limpiar Flotado -->
+                <div class="clearfix"></div>
+            </div>
+        </header>
+
+        
+        <div class="center">
+            <section id="content">
+                
+                <!-- <div id="articles"> -->
+                    <article class="article-item article-detail">
+                        <div class="image-wrap">
+                            <img src="data:image/png;base64,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" alt="eth" />
+                        </div>
+                        <h1 class="subheader">Artículo de prueba</h1>
+                        <span class="data">
+                            Hace 5 minutos
+                        </span>
+                        <p>
+                            Sagittis, donec tempus diam! Facilisis parturient dictumst natoque aliquam augue eros. Tortor penatibus tempus est dui a parturient! Nulla lacus est lacus at nec neque posuere, cubilia congue habitant. Habitasse nullam condimentum risus class adipiscing. Magnis cursus pretium sit sociosqu varius cras cursus nascetur interdum vitae. Ultrices dignissim, lorem habitant.
+                        </p>
+                        <p>
+                            Pretium posuere phasellus porttitor imperdiet nostra tristique magnis integer orci tincidunt commodo quisque. Cubilia volutpat congue nascetur sapien tincidunt scelerisque varius primis. Cum luctus ipsum platea ad varius iaculis condimentum varius amet curae; lacinia varius. Eget non luctus quam habitasse ac phasellus tempor inceptos. Purus diam augue sapien nascetur nulla adipiscing neque blandit fermentum leo auctor! Penatibus sit eget vulputate diam habitasse class. Fringilla interdum ultrices nec sit non volutpat sociis nibh lacus.
+                        </p>
+                        <p>
+                            Himenaeos dis ad ligula tortor facilisi lorem ipsum. Donec gravida nostra et libero pretium netus tincidunt elementum tempor vitae cum! Nulla habitasse scelerisque nostra adipiscing vel volutpat penatibus sed arcu aliquet platea in! Porta primis parturient sapien lobortis non elit mi donec dui aliquam ullamcorper! Fermentum donec velit nascetur erat torquent habitasse sagittis eu lobortis curabitur maecenas eu.    
+                        </p>
+                        <div class="clearfix"></div>
+                    </article> 
+                    <!-- Añadir artículos vía JS --> 
+                <!-- </div> -->
+
+            </section>
+
+            <!--Barra lateral-->
+            <aside id="sidebar">
+                <div id="nav-blog" class="sidebar-item">
+                    <h3>Puedes hacer esto</h3>
+                    <a href="#" class="btn btn-success">Crear artículo</a>
+                </div>
+                <div id="search" class="sidebar-item">
+                    <h3>Buscador</h3>
+                    <p>Encuentra el artículo que buscas</p>
+                    <form>
+                        <input type="text" name="search" />
+                        <input type="submit" name="submit" value="Buscar" class="btn"/>
+                    </form>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+        </div>
+
+        <footer id="footer">
+            <div class="center">
+                &copy; Tienda offline para compra venta de BTC y otras criptomonedas
+            </div>
+        </footer>
+    </body>
+</html>
